@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html data-ng-app="frontApp" lang="{{ $root.language }}">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Front oldal</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.5 -->
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/node_modules/angular-ui-switch/angular-ui-switch.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="/node_modules/angular-loading-bar/src/loading-bar.css">
+    <link rel="stylesheet" href="/node_modules/angular-ui-bootstrap/dist/ui-bootstrap-csp.css">
+    <link rel="stylesheet" href="/node_modules/angular-ui-switch/angular-ui-switch.min.css">
+
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body data-ng-controller="CommonController as ctrl">
+<div class="nav">
+    <a href="/">Login</a>
+    <a href="/register">Register</a>
+</div>
+<div class="container" style="min-height: 1000px;">
+    <div data-ng-controller="LoginController as ctrl">
+        <h1>Login</h1>
+        <div>{{ctrl.error}}</div>
+        <form>
+            <div class="form-group">
+                <label for="username">username:</label>
+                <input id="username" type="text" data-ng-model="ctrl._formData.username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">password:</label>
+                <input id="password" type="password" data-ng-model="ctrl._formData.password" required>
+            </div>
+            <button data-ng-click="ctrl.login()" class="btn btn-success">Küld</button>
+        </form>
+    </div>
+</div><!-- /.content -->
+
+
+<!-- REQUIRED JS SCRIPTS -->
+<!-- jQuery 2.1.4 -->
+<script src="/bower_components/jquery/dist/jquery.js"></script>
+<!-- Bootstrap 3.3.5 -->
+<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/node_modules/angular/angular.js"></script>
+<script src="/node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
+
+<script src="/node_modules/angular-ui-switch/angular-ui-switch.js"></script>
+<script src="/bower_components/angular-route/angular-route.js"></script>
+<script src="/bower_components/angular-local-storage/dist/angular-local-storage.js"></script>
+<script src="/bower_components/angular-translate/angular-translate.js"></script>
+<script src="/bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js"></script>
+
+<script src="/node_modules/angular-loading-bar/src/loading-bar.js"></script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment-with-locales.min.js"></script>
+<script src="/public/js/frontend-scripts.js"></script>
+</body>
+</html>

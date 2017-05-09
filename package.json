@@ -1,0 +1,34 @@
+{
+  "name": "braincore",
+  "version": "1.0.0",
+  "description": "Környezet : \r nodejs - https://nodejs.org/en/\r mongodb - https://www.mongodb.com/\r     robomongo (mongomanager) - https://robomongo.org/\r phalcon - https://phalconphp.com/hu/",
+  "main": "app.js",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-loading-bar": "^0.9.0",
+    "angular-moment": "^1.0.1",
+    "angular-ui-bootstrap": "^2.3.0",
+    "angular-ui-switch": "^0.1.1",
+    "bootstrap": "^3.3.7",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-typescript": "^3.0.2",
+    "moment": "^2.17.1",
+    "tsd": "^0.6.5",
+    "typescript": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/handle2/Braincore.git"
+  },
+  "bugs": {
+    "url": "https://github.com/handle2/Braincore/issues"
+  },
+  "homepage": "https://github.com/handle2/Braincore#readme"
+}

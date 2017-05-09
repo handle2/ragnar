@@ -1,2 +1,7 @@
-/cache/
-/config/development/
+/typings
+/node_modules
+/dist
+/bower_components
+/modules/predis
+/apps/frontend/typescripts/**/*.js
+/apps/frontend/typescripts/**/*.js.map

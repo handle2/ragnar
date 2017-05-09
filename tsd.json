@@ -1,0 +1,36 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "angularjs/angular.d.ts": {
+      "commit": "3cc599268d2dabe3c3ee194e92965ee87440e9c3"
+    },
+    "jquery/jquery.d.ts": {
+      "commit": "3cc599268d2dabe3c3ee194e92965ee87440e9c3"
+    },
+    "orchestrator/orchestrator.d.ts": {
+      "commit": "f5ab2df94e1aabf0fc6d783ad01c4c4671760627"
+    },
+    "vinyl/vinyl.d.ts": {
+      "commit": "f5ab2df94e1aabf0fc6d783ad01c4c4671760627"
+    },
+    "gulp/gulp.d.ts": {
+      "commit": "f5ab2df94e1aabf0fc6d783ad01c4c4671760627"
+    },
+    "q/Q.d.ts": {
+      "commit": "f5ab2df94e1aabf0fc6d783ad01c4c4671760627"
+    },
+    "node/node.d.ts": {
+      "commit": "f5ab2df94e1aabf0fc6d783ad01c4c4671760627"
+    },
+    "gulp-typescript/gulp-typescript.d.ts": {
+      "commit": "3cc599268d2dabe3c3ee194e92965ee87440e9c3"
+    },
+    "gulp-concat/gulp-concat.d.ts": {
+      "commit": "3cc599268d2dabe3c3ee194e92965ee87440e9c3"
+    }
+  }
+}
